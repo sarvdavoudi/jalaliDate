@@ -1,0 +1,22 @@
+/* Styles go here */
+
+body {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    margin: 10px 0 50px;
+    color: #aaa;
+}
+
+a {
+    color: #07f;
+    text-decoration: none;
+}
+
+button,
+input {
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>using jalali moment es5</title>
+</head>
+
+<body>
+    <h1>Using <a href="https://github.com/fingerpich/jalali-moment">jalali moment module</a> in es5</h1>
+    <h2>Convert gregorian(miladi) to jalali(shamsi)</h2>
+    <input id="gregorianInput" placeHolder="YYYY/MM/D" value="1989/1/24">
+    <button id="convertToJalali">convert</button>
+    <span id="jalaliOutput"></span>
+    
+    <h2>Convert jalali(shamsi) to gregorian(miladi) </h2>
+    <input id="jalaliInput" placeHolder="YYYY/M/D" value="1370/03/16">
+    <button id="convertToGregorian">convert</button>
+    <span id="gregorianOutput"></span>
+    <!-- jalali library -->
+    <script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
+    <script src="script.js"></script>
+  </body>
+  
+</html>
